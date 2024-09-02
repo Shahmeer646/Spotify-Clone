@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class='login-page'>
+        <div class="login-form">
+            <h1>Sign up</h1>
+            <form method='Post' action='' onSubmit={handleSubmit(onSubmit)}>
+                <input onchange="onChange(this)" class="username" name='username' placeholder='Username'
+                    type="username" />
+
+                <input onchange="onChange(this)" name='email' placeholder='Email' type="email" />
+
+                <input onchange="onChange(this)" name='password' placeholder='Password' type="password" />
+
+                <button onclick="sign_up()" class="Sign">Sign up</button>
+            </form>
+            <div class='already'><span>I have already an account? <a class="no-text-dec" href="/login.html"><span
+                            class="sm-blue">Login</span>
+
+            </div>
+        </div>
+        <script src="form.js"></script>
+</body>
+
+</html>

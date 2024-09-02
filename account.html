@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class='profile'>
+        <div class="profile-info">
+            <div class="user-logo">
+                <img width="100" src="logo/user-circle.svg" alt="" />
+                <span>Profile</span>
+            </div>
+            <div key={user._id} class='profile-txt'>
+                <p><span>Username : <span class='blue-info'>{user.username}</span></span></p>
+                <p><span>Email : <span class='blue-info'>{user.email}</span></span></p>
+                <p><span>Password : <span class='blue-info'>{user.password}</span></span></p>
+            </div> 
+            <div class="delete-account">
+                <span onclick="delete_account()" class="blue-info">Delete account</span>
+                <span onclick="log_out()" class="blue-info ">Log out</span>
+            </div>
+        </div>
+
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>

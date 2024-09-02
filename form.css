@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(6, 4, 19);
+}
+
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-form {
+    background-color: rgba(6, 5, 5, 1);
+    border-radius: 10px;
+    height: 410px;
+    width: 550px;
+
+    text-align: center;
+}
+
+.login-form h1 {
+    font-size: 1.7rem;
+    margin: 30px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    height: 60%;
+}
+
+input {
+    background-color: rgba(37, 34, 39, 1);
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 10px 15px;
+    outline: none;
+    color: whi;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+form .Sign {
+    font-size: 1rem;
+    background-color: rgba(37, 18, 113, 1);
+    color: rgb(243, 239, 239);
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 9px 23px;
+    width: max-content;
+    border: none;
+    transition: .4s;
+}
+
+.submit:hover {
+    background-color: rgb(25, 12, 79);
+}
+
+form button:hover {
+    background-color: rgb(25, 12, 79);
+}
+
+.already {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.already>span {
+    font-size: .9rem;
+    color: rgb(105, 99, 99);
+
+}
+
+.sm-blue {
+    color: blue;
+    cursor: pointer;
+}
+
+.user-logo {
+    width: max-content;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-logo span {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.profile {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info {
+    min-width: 555px;
+    height: 80vh;
+    background-color: rgba(6, 5, 5, 1);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-txt {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.profile-info p {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.34rem;
+}
+
+.delete-account {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.blue-info {
+    color: rgba(0, 56, 255, 1);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
